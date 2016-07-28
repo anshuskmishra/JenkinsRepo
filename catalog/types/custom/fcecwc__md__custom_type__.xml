@@ -1,0 +1,1910 @@
+<custom__type__definition>
+  <version>5.2.0.0</version>
+  <typeName class="org.mule.common.metadata.DefaultMetaDataKey">
+    <id>fcecwc</id>
+    <displayName>fcecwc</displayName>
+    <category>DEFAULT</category>
+    <metaDataKeyPropertiesManager>
+      <properties>
+        <org.mule.common.metadata.key.property.dsql.DsqlFromMetaDataKeyProperty/>
+      </properties>
+    </metaDataKeyPropertiesManager>
+  </typeName>
+  <metadataModel class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+    <dataType>XML</dataType>
+    <metaDataModelPropertiesManager>
+      <properties>
+        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+          <typeQName>
+            <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+            <localPart>soapui-projectType</localPart>
+            <prefix></prefix>
+          </typeQName>
+        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+        <org.mule.common.metadata.property.TextBasedExampleMetaDataModelProperty>
+          <exampleContent>C:\Users\anshumishra\Downloads\REST-Project-1-soapui-project.xml</exampleContent>
+        </org.mule.common.metadata.property.TextBasedExampleMetaDataModelProperty>
+      </properties>
+    </metaDataModelPropertiesManager>
+    <fields>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>ns0:settings</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName>
+                  <namespaceURI>http://www.w3.org/2001/XMLSchema</namespaceURI>
+                  <localPart>string</localPart>
+                  <prefix></prefix>
+                </typeQName>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                <localPart>settings</localPart>
+                <prefix>ns0</prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>ns0:interface</name>
+        <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+          <dataType>XML</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName>
+                  <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                  <localPart>interfaceType</localPart>
+                  <prefix></prefix>
+                </typeQName>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+          <fields>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>ns0:settings</name>
+              <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                <dataType>STRING</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName reference="../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                      <localPart>settings</localPart>
+                      <prefix>ns0</prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>ns0:definitionCache</name>
+              <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                <dataType>STRING</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName reference="../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                      <localPart>definitionCache</localPart>
+                      <prefix>ns0</prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>ns0:endpoints</name>
+              <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                <dataType>XML</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName>
+                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                        <localPart>endpointsType</localPart>
+                        <prefix></prefix>
+                      </typeQName>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+                <fields>
+                  <org.mule.common.metadata.DefaultMetaDataField>
+                    <name>ns0:endpoint</name>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties>
+                          <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                            <typeQName reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                          </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        </properties>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <accessType>READ_WRITE</accessType>
+                    <metaDataFieldPropertyManager>
+                      <properties>
+                        <org.mule.common.metadata.property.QNameMetaDataProperty>
+                          <name>
+                            <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                            <localPart>endpoint</localPart>
+                            <prefix>ns0</prefix>
+                          </name>
+                        </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      </properties>
+                    </metaDataFieldPropertyManager>
+                  </org.mule.common.metadata.DefaultMetaDataField>
+                </fields>
+                <rootElement>
+                  <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                  <localPart>soapui-project</localPart>
+                  <prefix>ns0</prefix>
+                </rootElement>
+                <schemas class="org.mule.common.metadata.StringBasedSchemaProvider">
+                  <schemas>
+                    <string>&lt;xs:schema attributeFormDefault=&quot;unqualified&quot; elementFormDefault=&quot;qualified&quot; targetNamespace=&quot;http://eviware.com/soapui/config&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xd;
+  &lt;xs:element name=&quot;soapui-project&quot; type=&quot;con:soapui-projectType&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+  &lt;xs:complexType name=&quot;soapui-projectType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;settings&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:interfaceType&quot; name=&quot;interface&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;properties&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;wssContainer&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;oAuth2ProfileContainer&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;activeEnvironment&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;name&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;soapui-version&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;abortOnError&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;runType&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;resourceRoot&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;id&quot;/&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;settingsType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;con:settingType&quot; name=&quot;setting&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;requestType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;con:settingsType&quot; name=&quot;settings&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;endpoint&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;request&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;originalUri&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:credentialsType&quot; name=&quot;credentials&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:jmsConfigType&quot; name=&quot;jmsConfig&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;jmsPropertyConfig&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;parameters&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;parameterOrder&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;name&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;mediaType&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;postQueryString&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;id&quot;/&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;methodType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;settings&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;parameters&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:representationType&quot; name=&quot;representation&quot; maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:requestType&quot; name=&quot;request&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;name&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;method&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;id&quot;/&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;representationType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element name=&quot;mediaType&quot;&gt;&#xd;
+        &lt;xs:simpleType&gt;&#xd;
+          &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xd;
+            &lt;xs:enumeration value=&quot;application/json&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;application/xml&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;text/xml&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;text/html; charset=UTF-8&quot;/&gt;&#xd;
+          &lt;/xs:restriction&gt;&#xd;
+        &lt;/xs:simpleType&gt;&#xd;
+      &lt;/xs:element&gt;&#xd;
+      &lt;xs:element name=&quot;status&quot; minOccurs=&quot;0&quot;&gt;&#xd;
+        &lt;xs:simpleType&gt;&#xd;
+          &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xd;
+            &lt;xs:enumeration value=&quot;0&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;200&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;404 500&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;404&quot;/&gt;&#xd;
+          &lt;/xs:restriction&gt;&#xd;
+        &lt;/xs:simpleType&gt;&#xd;
+      &lt;/xs:element&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;params&quot;/&gt;&#xd;
+      &lt;xs:element name=&quot;element&quot; minOccurs=&quot;0&quot;&gt;&#xd;
+        &lt;xs:simpleType&gt;&#xd;
+          &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xd;
+            &lt;xs:enumeration value=&quot;data&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;Partner&quot;/&gt;&#xd;
+            &lt;xs:enumeration value=&quot;html&quot;/&gt;&#xd;
+          &lt;/xs:restriction&gt;&#xd;
+        &lt;/xs:simpleType&gt;&#xd;
+      &lt;/xs:element&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;type&quot; use=&quot;optional&quot;/&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;interfaceType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;settings&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;definitionCache&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:endpointsType&quot; name=&quot;endpoints&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:resourceType&quot; name=&quot;resource&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:anyURI&quot; name=&quot;wadlVersion&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;name&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;type&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;id&quot;/&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;resourceType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;settings&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;parameters&quot;/&gt;&#xd;
+      &lt;xs:element type=&quot;con:methodType&quot; name=&quot;method&quot; xmlns:con=&quot;http://eviware.com/soapui/config&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;name&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;path&quot;/&gt;&#xd;
+    &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;id&quot;/&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;jmsConfigType&quot;&gt;&#xd;
+    &lt;xs:simpleContent&gt;&#xd;
+      &lt;xs:extension base=&quot;xs:string&quot;&gt;&#xd;
+        &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;JMSDeliveryMode&quot;/&gt;&#xd;
+      &lt;/xs:extension&gt;&#xd;
+    &lt;/xs:simpleContent&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;settingType&quot;&gt;&#xd;
+    &lt;xs:simpleContent&gt;&#xd;
+      &lt;xs:extension base=&quot;xs:string&quot;&gt;&#xd;
+        &lt;xs:attribute type=&quot;xs:string&quot; name=&quot;id&quot;/&gt;&#xd;
+      &lt;/xs:extension&gt;&#xd;
+    &lt;/xs:simpleContent&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;endpointsType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;endpoint&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+  &lt;xs:complexType name=&quot;credentialsType&quot;&gt;&#xd;
+    &lt;xs:sequence&gt;&#xd;
+      &lt;xs:element type=&quot;xs:string&quot; name=&quot;authType&quot;/&gt;&#xd;
+    &lt;/xs:sequence&gt;&#xd;
+  &lt;/xs:complexType&gt;&#xd;
+&lt;/xs:schema&gt;</string>
+                  </schemas>
+                  <encoding>UTF-8</encoding>
+                </schemas>
+                <namespaceManager>
+                  <namespacePrefix>
+                    <entry>
+                      <string>http://eviware.com/soapui/config</string>
+                      <string>ns0</string>
+                    </entry>
+                  </namespacePrefix>
+                </namespaceManager>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                      <localPart>endpoints</localPart>
+                      <prefix>ns0</prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>ns0:resource</name>
+              <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                <dataType>XML</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName>
+                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                        <localPart>resourceType</localPart>
+                        <prefix></prefix>
+                      </typeQName>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+                <fields>
+                  <org.mule.common.metadata.DefaultMetaDataField>
+                    <name>ns0:settings</name>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties>
+                          <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                            <typeQName reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                          </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        </properties>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <accessType>READ_WRITE</accessType>
+                    <metaDataFieldPropertyManager>
+                      <properties>
+                        <org.mule.common.metadata.property.QNameMetaDataProperty>
+                          <name>
+                            <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                            <localPart>settings</localPart>
+                            <prefix>ns0</prefix>
+                          </name>
+                        </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      </properties>
+                    </metaDataFieldPropertyManager>
+                  </org.mule.common.metadata.DefaultMetaDataField>
+                  <org.mule.common.metadata.DefaultMetaDataField>
+                    <name>ns0:parameters</name>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties>
+                          <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                            <typeQName reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                          </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        </properties>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <accessType>READ_WRITE</accessType>
+                    <metaDataFieldPropertyManager>
+                      <properties>
+                        <org.mule.common.metadata.property.QNameMetaDataProperty>
+                          <name>
+                            <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                            <localPart>parameters</localPart>
+                            <prefix>ns0</prefix>
+                          </name>
+                        </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      </properties>
+                    </metaDataFieldPropertyManager>
+                  </org.mule.common.metadata.DefaultMetaDataField>
+                  <org.mule.common.metadata.DefaultMetaDataField>
+                    <name>ns0:method</name>
+                    <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                      <dataType>XML</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties>
+                          <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                            <typeQName>
+                              <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                              <localPart>methodType</localPart>
+                              <prefix></prefix>
+                            </typeQName>
+                          </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        </properties>
+                      </metaDataModelPropertiesManager>
+                      <fields>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:settings</name>
+                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                            <dataType>STRING</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                  <localPart>settings</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:parameters</name>
+                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                            <dataType>STRING</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                  <localPart>parameters</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:representation</name>
+                          <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                            <dataType>LIST</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName>
+                                    <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                    <localPart>representationType</localPart>
+                                    <prefix></prefix>
+                                  </typeQName>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                  <maxOccurs>2147483647</maxOccurs>
+                                  <minOccurs>0</minOccurs>
+                                </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                            <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                              <dataType>XML</dataType>
+                              <metaDataModelPropertiesManager>
+                                <properties/>
+                              </metaDataModelPropertiesManager>
+                              <fields>
+                                <org.mule.common.metadata.DefaultMetaDataField>
+                                  <name>ns0:mediaType</name>
+                                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                    <dataType>STRING</dataType>
+                                    <metaDataModelPropertiesManager>
+                                      <properties/>
+                                    </metaDataModelPropertiesManager>
+                                  </model>
+                                  <accessType>READ_WRITE</accessType>
+                                  <metaDataFieldPropertyManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        <name>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>mediaType</localPart>
+                                          <prefix>ns0</prefix>
+                                        </name>
+                                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    </properties>
+                                  </metaDataFieldPropertyManager>
+                                </org.mule.common.metadata.DefaultMetaDataField>
+                                <org.mule.common.metadata.DefaultMetaDataField>
+                                  <name>ns0:status</name>
+                                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                    <dataType>STRING</dataType>
+                                    <metaDataModelPropertiesManager>
+                                      <properties/>
+                                    </metaDataModelPropertiesManager>
+                                  </model>
+                                  <accessType>READ_WRITE</accessType>
+                                  <metaDataFieldPropertyManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        <name>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>status</localPart>
+                                          <prefix>ns0</prefix>
+                                        </name>
+                                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    </properties>
+                                  </metaDataFieldPropertyManager>
+                                </org.mule.common.metadata.DefaultMetaDataField>
+                                <org.mule.common.metadata.DefaultMetaDataField>
+                                  <name>ns0:params</name>
+                                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                    <dataType>STRING</dataType>
+                                    <metaDataModelPropertiesManager>
+                                      <properties>
+                                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                          <typeQName reference="../../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                      </properties>
+                                    </metaDataModelPropertiesManager>
+                                  </model>
+                                  <accessType>READ_WRITE</accessType>
+                                  <metaDataFieldPropertyManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        <name>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>params</localPart>
+                                          <prefix>ns0</prefix>
+                                        </name>
+                                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    </properties>
+                                  </metaDataFieldPropertyManager>
+                                </org.mule.common.metadata.DefaultMetaDataField>
+                                <org.mule.common.metadata.DefaultMetaDataField>
+                                  <name>ns0:element</name>
+                                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                    <dataType>STRING</dataType>
+                                    <metaDataModelPropertiesManager>
+                                      <properties/>
+                                    </metaDataModelPropertiesManager>
+                                  </model>
+                                  <accessType>READ_WRITE</accessType>
+                                  <metaDataFieldPropertyManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        <name>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>element</localPart>
+                                          <prefix>ns0</prefix>
+                                        </name>
+                                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    </properties>
+                                  </metaDataFieldPropertyManager>
+                                </org.mule.common.metadata.DefaultMetaDataField>
+                                <org.mule.common.metadata.DefaultMetaDataField>
+                                  <name>type</name>
+                                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                    <dataType>STRING</dataType>
+                                    <metaDataModelPropertiesManager>
+                                      <properties>
+                                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                          <typeQName reference="../../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                      </properties>
+                                    </metaDataModelPropertiesManager>
+                                  </model>
+                                  <accessType>READ_WRITE</accessType>
+                                  <metaDataFieldPropertyManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        <name>
+                                          <namespaceURI></namespaceURI>
+                                          <localPart>type</localPart>
+                                          <prefix></prefix>
+                                        </name>
+                                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                        <label>@type</label>
+                                      </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                      <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                        <isAttribute>true</isAttribute>
+                                      </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                    </properties>
+                                  </metaDataFieldPropertyManager>
+                                </org.mule.common.metadata.DefaultMetaDataField>
+                              </fields>
+                              <rootElement>
+                                <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                <localPart>soapui-project</localPart>
+                                <prefix>ns0</prefix>
+                              </rootElement>
+                              <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                              <namespaceManager reference="../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+                            </model>
+                            <isArray>false</isArray>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                  <localPart>representation</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:request</name>
+                          <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                            <dataType>XML</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName>
+                                    <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                    <localPart>requestType</localPart>
+                                    <prefix></prefix>
+                                  </typeQName>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                            <fields>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:settings</name>
+                                <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                                  <dataType>XML</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>settingsType</localPart>
+                                          <prefix></prefix>
+                                        </typeQName>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                  <fields>
+                                    <org.mule.common.metadata.DefaultMetaDataField>
+                                      <name>ns0:setting</name>
+                                      <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                                        <dataType>XML</dataType>
+                                        <metaDataModelPropertiesManager>
+                                          <properties>
+                                            <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              <typeQName>
+                                                <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                                <localPart>settingType</localPart>
+                                                <prefix></prefix>
+                                              </typeQName>
+                                            </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                          </properties>
+                                        </metaDataModelPropertiesManager>
+                                        <fields>
+                                          <org.mule.common.metadata.DefaultMetaDataField>
+                                            <name>text()</name>
+                                            <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                              <dataType>STRING</dataType>
+                                              <metaDataModelPropertiesManager>
+                                                <properties/>
+                                              </metaDataModelPropertiesManager>
+                                            </model>
+                                            <accessType>READ_WRITE</accessType>
+                                            <metaDataFieldPropertyManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                  <name>
+                                                    <namespaceURI></namespaceURI>
+                                                    <localPart>text()</localPart>
+                                                    <prefix></prefix>
+                                                  </name>
+                                                </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                              </properties>
+                                            </metaDataFieldPropertyManager>
+                                          </org.mule.common.metadata.DefaultMetaDataField>
+                                          <org.mule.common.metadata.DefaultMetaDataField>
+                                            <name>id</name>
+                                            <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                              <dataType>STRING</dataType>
+                                              <metaDataModelPropertiesManager>
+                                                <properties>
+                                                  <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                    <typeQName reference="../../../../../../../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                  </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                </properties>
+                                              </metaDataModelPropertiesManager>
+                                            </model>
+                                            <accessType>READ_WRITE</accessType>
+                                            <metaDataFieldPropertyManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                  <name>
+                                                    <namespaceURI></namespaceURI>
+                                                    <localPart>id</localPart>
+                                                    <prefix></prefix>
+                                                  </name>
+                                                </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                  <label>@id</label>
+                                                </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                                  <isAttribute>true</isAttribute>
+                                                </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                              </properties>
+                                            </metaDataFieldPropertyManager>
+                                          </org.mule.common.metadata.DefaultMetaDataField>
+                                        </fields>
+                                        <rootElement>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>soapui-project</localPart>
+                                          <prefix>ns0</prefix>
+                                        </rootElement>
+                                        <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                                        <namespaceManager reference="../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+                                      </model>
+                                      <accessType>READ_WRITE</accessType>
+                                      <metaDataFieldPropertyManager>
+                                        <properties>
+                                          <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            <name>
+                                              <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                              <localPart>setting</localPart>
+                                              <prefix>ns0</prefix>
+                                            </name>
+                                          </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        </properties>
+                                      </metaDataFieldPropertyManager>
+                                    </org.mule.common.metadata.DefaultMetaDataField>
+                                  </fields>
+                                  <rootElement>
+                                    <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                    <localPart>soapui-project</localPart>
+                                    <prefix>ns0</prefix>
+                                  </rootElement>
+                                  <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                                  <namespaceManager reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>settings</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:endpoint</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>endpoint</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:request</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>request</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:originalUri</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>originalUri</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:credentials</name>
+                                <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                                  <dataType>XML</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>credentialsType</localPart>
+                                          <prefix></prefix>
+                                        </typeQName>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                  <fields>
+                                    <org.mule.common.metadata.DefaultMetaDataField>
+                                      <name>ns0:authType</name>
+                                      <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                        <dataType>STRING</dataType>
+                                        <metaDataModelPropertiesManager>
+                                          <properties>
+                                            <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              <typeQName reference="../../../../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                            </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                          </properties>
+                                        </metaDataModelPropertiesManager>
+                                      </model>
+                                      <accessType>READ_WRITE</accessType>
+                                      <metaDataFieldPropertyManager>
+                                        <properties>
+                                          <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            <name>
+                                              <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                              <localPart>authType</localPart>
+                                              <prefix>ns0</prefix>
+                                            </name>
+                                          </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        </properties>
+                                      </metaDataFieldPropertyManager>
+                                    </org.mule.common.metadata.DefaultMetaDataField>
+                                  </fields>
+                                  <rootElement>
+                                    <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                    <localPart>soapui-project</localPart>
+                                    <prefix>ns0</prefix>
+                                  </rootElement>
+                                  <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                                  <namespaceManager reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>credentials</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:jmsConfig</name>
+                                <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                                  <dataType>XML</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName>
+                                          <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                          <localPart>jmsConfigType</localPart>
+                                          <prefix></prefix>
+                                        </typeQName>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                  <fields>
+                                    <org.mule.common.metadata.DefaultMetaDataField>
+                                      <name>text()</name>
+                                      <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                        <dataType>STRING</dataType>
+                                        <metaDataModelPropertiesManager>
+                                          <properties/>
+                                        </metaDataModelPropertiesManager>
+                                      </model>
+                                      <accessType>READ_WRITE</accessType>
+                                      <metaDataFieldPropertyManager>
+                                        <properties>
+                                          <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            <name>
+                                              <namespaceURI></namespaceURI>
+                                              <localPart>text()</localPart>
+                                              <prefix></prefix>
+                                            </name>
+                                          </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        </properties>
+                                      </metaDataFieldPropertyManager>
+                                    </org.mule.common.metadata.DefaultMetaDataField>
+                                    <org.mule.common.metadata.DefaultMetaDataField>
+                                      <name>JMSDeliveryMode</name>
+                                      <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                        <dataType>STRING</dataType>
+                                        <metaDataModelPropertiesManager>
+                                          <properties>
+                                            <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              <typeQName reference="../../../../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                            </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                          </properties>
+                                        </metaDataModelPropertiesManager>
+                                      </model>
+                                      <accessType>READ_WRITE</accessType>
+                                      <metaDataFieldPropertyManager>
+                                        <properties>
+                                          <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            <name>
+                                              <namespaceURI></namespaceURI>
+                                              <localPart>JMSDeliveryMode</localPart>
+                                              <prefix></prefix>
+                                            </name>
+                                          </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                          <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                            <label>@JMSDeliveryMode</label>
+                                          </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                          <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                            <isAttribute>true</isAttribute>
+                                          </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                        </properties>
+                                      </metaDataFieldPropertyManager>
+                                    </org.mule.common.metadata.DefaultMetaDataField>
+                                  </fields>
+                                  <rootElement>
+                                    <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                    <localPart>soapui-project</localPart>
+                                    <prefix>ns0</prefix>
+                                  </rootElement>
+                                  <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                                  <namespaceManager reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>jmsConfig</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:jmsPropertyConfig</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>jmsPropertyConfig</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:parameters</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>parameters</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>ns0:parameterOrder</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                        <localPart>parameterOrder</localPart>
+                                        <prefix>ns0</prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>name</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI></namespaceURI>
+                                        <localPart>name</localPart>
+                                        <prefix></prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                      <label>@name</label>
+                                    </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                    <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                      <isAttribute>true</isAttribute>
+                                    </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>mediaType</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI></namespaceURI>
+                                        <localPart>mediaType</localPart>
+                                        <prefix></prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                      <label>@mediaType</label>
+                                    </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                    <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                      <isAttribute>true</isAttribute>
+                                    </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>postQueryString</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI></namespaceURI>
+                                        <localPart>postQueryString</localPart>
+                                        <prefix></prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                      <label>@postQueryString</label>
+                                    </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                    <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                      <isAttribute>true</isAttribute>
+                                    </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                              <org.mule.common.metadata.DefaultMetaDataField>
+                                <name>id</name>
+                                <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                  <dataType>STRING</dataType>
+                                  <metaDataModelPropertiesManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                      </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                    </properties>
+                                  </metaDataModelPropertiesManager>
+                                </model>
+                                <accessType>READ_WRITE</accessType>
+                                <metaDataFieldPropertyManager>
+                                  <properties>
+                                    <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                      <name>
+                                        <namespaceURI></namespaceURI>
+                                        <localPart>id</localPart>
+                                        <prefix></prefix>
+                                      </name>
+                                    </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                      <label>@id</label>
+                                    </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                    <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                      <isAttribute>true</isAttribute>
+                                    </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                  </properties>
+                                </metaDataFieldPropertyManager>
+                              </org.mule.common.metadata.DefaultMetaDataField>
+                            </fields>
+                            <rootElement>
+                              <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                              <localPart>soapui-project</localPart>
+                              <prefix>ns0</prefix>
+                            </rootElement>
+                            <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                            <namespaceManager reference="../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                                  <localPart>request</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>name</name>
+                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                            <dataType>STRING</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI></namespaceURI>
+                                  <localPart>name</localPart>
+                                  <prefix></prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                <label>@name</label>
+                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                <isAttribute>true</isAttribute>
+                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>method</name>
+                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                            <dataType>STRING</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI></namespaceURI>
+                                  <localPart>method</localPart>
+                                  <prefix></prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                <label>@method</label>
+                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                <isAttribute>true</isAttribute>
+                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>id</name>
+                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                            <dataType>STRING</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI></namespaceURI>
+                                  <localPart>id</localPart>
+                                  <prefix></prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                <label>@id</label>
+                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                <isAttribute>true</isAttribute>
+                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                      </fields>
+                      <rootElement>
+                        <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                        <localPart>soapui-project</localPart>
+                        <prefix>ns0</prefix>
+                      </rootElement>
+                      <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                      <namespaceManager reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+                    </model>
+                    <accessType>READ_WRITE</accessType>
+                    <metaDataFieldPropertyManager>
+                      <properties>
+                        <org.mule.common.metadata.property.QNameMetaDataProperty>
+                          <name>
+                            <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                            <localPart>method</localPart>
+                            <prefix>ns0</prefix>
+                          </name>
+                        </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      </properties>
+                    </metaDataFieldPropertyManager>
+                  </org.mule.common.metadata.DefaultMetaDataField>
+                  <org.mule.common.metadata.DefaultMetaDataField>
+                    <name>name</name>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties>
+                          <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                            <typeQName reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                          </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        </properties>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <accessType>READ_WRITE</accessType>
+                    <metaDataFieldPropertyManager>
+                      <properties>
+                        <org.mule.common.metadata.property.QNameMetaDataProperty>
+                          <name>
+                            <namespaceURI></namespaceURI>
+                            <localPart>name</localPart>
+                            <prefix></prefix>
+                          </name>
+                        </org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <org.mule.common.metadata.property.LabelMetaDataProperty>
+                          <label>@name</label>
+                        </org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                          <isAttribute>true</isAttribute>
+                        </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                      </properties>
+                    </metaDataFieldPropertyManager>
+                  </org.mule.common.metadata.DefaultMetaDataField>
+                  <org.mule.common.metadata.DefaultMetaDataField>
+                    <name>path</name>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties>
+                          <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                            <typeQName reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                          </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        </properties>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <accessType>READ_WRITE</accessType>
+                    <metaDataFieldPropertyManager>
+                      <properties>
+                        <org.mule.common.metadata.property.QNameMetaDataProperty>
+                          <name>
+                            <namespaceURI></namespaceURI>
+                            <localPart>path</localPart>
+                            <prefix></prefix>
+                          </name>
+                        </org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <org.mule.common.metadata.property.LabelMetaDataProperty>
+                          <label>@path</label>
+                        </org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                          <isAttribute>true</isAttribute>
+                        </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                      </properties>
+                    </metaDataFieldPropertyManager>
+                  </org.mule.common.metadata.DefaultMetaDataField>
+                  <org.mule.common.metadata.DefaultMetaDataField>
+                    <name>id</name>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties>
+                          <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                            <typeQName reference="../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                          </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        </properties>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <accessType>READ_WRITE</accessType>
+                    <metaDataFieldPropertyManager>
+                      <properties>
+                        <org.mule.common.metadata.property.QNameMetaDataProperty>
+                          <name>
+                            <namespaceURI></namespaceURI>
+                            <localPart>id</localPart>
+                            <prefix></prefix>
+                          </name>
+                        </org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <org.mule.common.metadata.property.LabelMetaDataProperty>
+                          <label>@id</label>
+                        </org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                          <isAttribute>true</isAttribute>
+                        </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                      </properties>
+                    </metaDataFieldPropertyManager>
+                  </org.mule.common.metadata.DefaultMetaDataField>
+                </fields>
+                <rootElement>
+                  <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                  <localPart>soapui-project</localPart>
+                  <prefix>ns0</prefix>
+                </rootElement>
+                <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+                <namespaceManager reference="../../../org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                      <localPart>resource</localPart>
+                      <prefix>ns0</prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>wadlVersion</name>
+              <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                <dataType>STRING</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName>
+                        <namespaceURI>http://www.w3.org/2001/XMLSchema</namespaceURI>
+                        <localPart>anyURI</localPart>
+                        <prefix></prefix>
+                      </typeQName>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI></namespaceURI>
+                      <localPart>wadlVersion</localPart>
+                      <prefix></prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                  <org.mule.common.metadata.property.LabelMetaDataProperty>
+                    <label>@wadlVersion</label>
+                  </org.mule.common.metadata.property.LabelMetaDataProperty>
+                  <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    <isAttribute>true</isAttribute>
+                  </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>name</name>
+              <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                <dataType>STRING</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName reference="../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI></namespaceURI>
+                      <localPart>name</localPart>
+                      <prefix></prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                  <org.mule.common.metadata.property.LabelMetaDataProperty>
+                    <label>@name</label>
+                  </org.mule.common.metadata.property.LabelMetaDataProperty>
+                  <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    <isAttribute>true</isAttribute>
+                  </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>type</name>
+              <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                <dataType>STRING</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName reference="../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI></namespaceURI>
+                      <localPart>type</localPart>
+                      <prefix></prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                  <org.mule.common.metadata.property.LabelMetaDataProperty>
+                    <label>@type</label>
+                  </org.mule.common.metadata.property.LabelMetaDataProperty>
+                  <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    <isAttribute>true</isAttribute>
+                  </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+            <org.mule.common.metadata.DefaultMetaDataField>
+              <name>id</name>
+              <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                <dataType>STRING</dataType>
+                <metaDataModelPropertiesManager>
+                  <properties>
+                    <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      <typeQName reference="../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                    </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                  </properties>
+                </metaDataModelPropertiesManager>
+              </model>
+              <accessType>READ_WRITE</accessType>
+              <metaDataFieldPropertyManager>
+                <properties>
+                  <org.mule.common.metadata.property.QNameMetaDataProperty>
+                    <name>
+                      <namespaceURI></namespaceURI>
+                      <localPart>id</localPart>
+                      <prefix></prefix>
+                    </name>
+                  </org.mule.common.metadata.property.QNameMetaDataProperty>
+                  <org.mule.common.metadata.property.LabelMetaDataProperty>
+                    <label>@id</label>
+                  </org.mule.common.metadata.property.LabelMetaDataProperty>
+                  <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    <isAttribute>true</isAttribute>
+                  </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                </properties>
+              </metaDataFieldPropertyManager>
+            </org.mule.common.metadata.DefaultMetaDataField>
+          </fields>
+          <rootElement>
+            <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+            <localPart>soapui-project</localPart>
+            <prefix>ns0</prefix>
+          </rootElement>
+          <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../fields/org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas"/>
+          <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                <localPart>interface</localPart>
+                <prefix>ns0</prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>ns0:properties</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                <localPart>properties</localPart>
+                <prefix>ns0</prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>ns0:wssContainer</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                <localPart>wssContainer</localPart>
+                <prefix>ns0</prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>ns0:oAuth2ProfileContainer</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+                <localPart>oAuth2ProfileContainer</localPart>
+                <prefix>ns0</prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>activeEnvironment</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI></namespaceURI>
+                <localPart>activeEnvironment</localPart>
+                <prefix></prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+            <org.mule.common.metadata.property.LabelMetaDataProperty>
+              <label>@activeEnvironment</label>
+            </org.mule.common.metadata.property.LabelMetaDataProperty>
+            <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+              <isAttribute>true</isAttribute>
+            </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>name</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI></namespaceURI>
+                <localPart>name</localPart>
+                <prefix></prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+            <org.mule.common.metadata.property.LabelMetaDataProperty>
+              <label>@name</label>
+            </org.mule.common.metadata.property.LabelMetaDataProperty>
+            <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+              <isAttribute>true</isAttribute>
+            </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>soapui-version</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI></namespaceURI>
+                <localPart>soapui-version</localPart>
+                <prefix></prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+            <org.mule.common.metadata.property.LabelMetaDataProperty>
+              <label>@soapui-version</label>
+            </org.mule.common.metadata.property.LabelMetaDataProperty>
+            <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+              <isAttribute>true</isAttribute>
+            </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>abortOnError</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI></namespaceURI>
+                <localPart>abortOnError</localPart>
+                <prefix></prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+            <org.mule.common.metadata.property.LabelMetaDataProperty>
+              <label>@abortOnError</label>
+            </org.mule.common.metadata.property.LabelMetaDataProperty>
+            <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+              <isAttribute>true</isAttribute>
+            </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>runType</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI></namespaceURI>
+                <localPart>runType</localPart>
+                <prefix></prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+            <org.mule.common.metadata.property.LabelMetaDataProperty>
+              <label>@runType</label>
+            </org.mule.common.metadata.property.LabelMetaDataProperty>
+            <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+              <isAttribute>true</isAttribute>
+            </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>resourceRoot</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI></namespaceURI>
+                <localPart>resourceRoot</localPart>
+                <prefix></prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+            <org.mule.common.metadata.property.LabelMetaDataProperty>
+              <label>@resourceRoot</label>
+            </org.mule.common.metadata.property.LabelMetaDataProperty>
+            <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+              <isAttribute>true</isAttribute>
+            </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+      <org.mule.common.metadata.DefaultMetaDataField>
+        <name>id</name>
+        <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+          <dataType>STRING</dataType>
+          <metaDataModelPropertiesManager>
+            <properties>
+              <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+              </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+            </properties>
+          </metaDataModelPropertiesManager>
+        </model>
+        <accessType>READ_WRITE</accessType>
+        <metaDataFieldPropertyManager>
+          <properties>
+            <org.mule.common.metadata.property.QNameMetaDataProperty>
+              <name>
+                <namespaceURI></namespaceURI>
+                <localPart>id</localPart>
+                <prefix></prefix>
+              </name>
+            </org.mule.common.metadata.property.QNameMetaDataProperty>
+            <org.mule.common.metadata.property.LabelMetaDataProperty>
+              <label>@id</label>
+            </org.mule.common.metadata.property.LabelMetaDataProperty>
+            <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+              <isAttribute>true</isAttribute>
+            </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+          </properties>
+        </metaDataFieldPropertyManager>
+      </org.mule.common.metadata.DefaultMetaDataField>
+    </fields>
+    <rootElement>
+      <namespaceURI>http://eviware.com/soapui/config</namespaceURI>
+      <localPart>soapui-project</localPart>
+      <prefix>ns0</prefix>
+    </rootElement>
+    <schemas class="org.mule.common.metadata.StringBasedSchemaProvider">
+      <schemas reference="../../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/fields/org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas/schemas"/>
+      <encoding reference="../../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/fields/org.mule.common.metadata.DefaultMetaDataField[3]/model/schemas/encoding"/>
+    </schemas>
+    <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/fields/org.mule.common.metadata.DefaultMetaDataField[3]/model/namespaceManager"/>
+  </metadataModel>
+</custom__type__definition>

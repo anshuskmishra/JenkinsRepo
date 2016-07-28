@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:dw="http://www.mulesoft.org/schema/mule/ee/dw" xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:mulexml="http://www.mulesoft.org/schema/mule/xml" xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/mule/ee/tracking/current/mule-tracking-ee.xsd
+http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/xml http://www.mulesoft.org/schema/mule/xml/current/mule-xml.xsd
+http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee/dw/current/dw.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd">
+    <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="9736" doc:name="HTTP Listener Configuration"/>
+    <db:mysql-config name="MySQL_Configuration" host="127.0.0.1" port="3306" user="root" password="root" database="testschema" doc:name="MySQL Configuration"/>
+    <flow name="routingtestFlow">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
+        <choice doc:name="Choice">
+            <when expression="#[message.inboundProperties.'http.query.params'.age=='12']">
+                <logger message="#['age is 12']" level="INFO" doc:name="12"/>
+            </when>
+            <when expression="#[message.inboundProperties.'http.query.params'.age=='20']">
+                <logger message="#['age is 20']" level="INFO" doc:name="20"/>
+            </when>
+            <when expression="#[message.inboundProperties.'http.query.params'.age==null]">
+                <logger message="#['age is null']" level="INFO" doc:name="null"/>
+            </when>
+            <otherwise>
+                <logger message="#['age is 10']" level="INFO" doc:name="10"/>
+            </otherwise>
+        </choice>
+        <scatter-gather doc:name="Scatter-Gather">
+            <logger message="Path1" level="INFO" doc:name="Logger"/>
+            <logger message="Path2" level="INFO" doc:name="Logger"/>
+            <logger message="Path3" level="INFO" doc:name="Logger"/>
+        </scatter-gather>
+        <byte-array-to-object-transformer doc:name="Byte Array to Object"/>
+        <file:file-to-string-transformer doc:name="File to String"/>
+        <json:json-to-xml-transformer doc:name="JSON to XML"/>
+        <set-payload value="#['test']" doc:name="Set Payload"/>
+    </flow>
+    <flow name="routingtestFlow1">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/route" doc:name="HTTP"/>
+        <db:select config-ref="MySQL_Configuration" doc:name="Database">
+            <db:parameterized-query><![CDATA[SELECT * FROM mstable;]]></db:parameterized-query>
+        </db:select>
+        <message-chunk-splitter messageSize="10" doc:name="Message Chunk Splitter"/>
+        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+        <message-chunk-aggregator failOnTimeout="true" doc:name="Message Chunk Aggregator"/>
+        <object-to-string-transformer doc:name="Object to String"/>
+        <logger message="after agge: #[payload]" level="INFO" doc:name="Logger"/>
+    </flow>
+</mule>
